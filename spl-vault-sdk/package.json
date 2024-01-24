@@ -1,0 +1,27 @@
+{
+  "name": "spl-vault-sdk",
+  "version": "1.0.0",
+  "description": "this is an sdk to easily interact with the spl-vault program",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && node postbuild.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "spl-vault-sdk"
+  },
+  "author": "devtonic.sol",
+  "license": "ISC",
+  "devDependencies": {
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/web3.js": "^1.87.6",
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.46",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.3.11",
+    "bn.js": "^5.2.1",
+    "react": "^18.2.0"
+  }
+}

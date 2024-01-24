@@ -1,0 +1,10 @@
+
+[provider]
+cluster = "localnet" # or "devnet", "mainnet-beta"
+wallet = "~/.config/solana/id.json"
+
+[programs.localnet]
+spl-vault = "StLgGmshdDJqCc5WCocgLAD18RaiFD3mWZfUVaReXrY"
+
+
+

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",                          // Target ECMAScript version for the output
+    "lib": ["dom", "dom.iterable", "esnext"], // Standard library files to be included in the compilation
+    "allowJs": true,                          // Allow JavaScript files to be compiled
+    "skipLibCheck": true,                     // Skip type checking of declaration files
+    "strict": false,                          // Enable/disable strict type-checking options
+    "forceConsistentCasingInFileNames": true, // Enforce consistent casing in file names
+    "noEmit": false,                          // Enable emitting files (important for building)
+    "esModuleInterop": true,                  // Enable ES module interop
+    "outDir": "./dist",                       // Output directory for the compiled files
+    "rootDir": "./src",                       // Root directory of the source files
+    "module": "commonjs",                     // Specify module code generation method
+    "declaration": true,                      // Generate corresponding '.d.ts' file
+    "moduleResolution": "node",               // Specify module resolution strategy
+    "resolveJsonModule": true,                // Allow importing JSON modules
+    "isolatedModules": true,                  // Ensure each file can be transpiled independently
+    "jsx": "react"                         // Preserve JSX; relevant if using React
+  },
+  "include": ["src/**/*"],                    // Include all files in the 'src' directory
+  "exclude": ["node_modules"]                 // Exclude 'node_modules' from compilation
+}
+
