@@ -1,4 +1,4 @@
-# SPL-Vault SDK - In-Depth Overview
+# SPL-Vault - In-Depth Overview
 
 ## Introduction
 
