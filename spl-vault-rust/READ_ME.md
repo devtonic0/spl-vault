@@ -55,7 +55,7 @@ Usage
 
 To use SPL-Vault, follow these steps:
 
-    Deploy the Program: Deploy the SPL-Vault program to the Solana blockchain.
+    It is not required to deploy your own program, the program is set up to have as many vaults as needed.
     Initialize a Vault: Create a new vault with desired settings.
     Stake Tokens: Users can stake tokens in the vault using the staking account.
     Manage Rewards: Set up and manage reward distribution mechanisms.
